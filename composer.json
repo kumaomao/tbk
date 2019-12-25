@@ -1,12 +1,23 @@
 {
-    "name": "kumaomao/tbk",
-    "description": "sdk",
+   "name": "kumaomao/tbk",
+   "description": "sdk",
+	"version":"1.0.1",
     "authors": [
         {
             "name": "kumaomao",
-            "email": "z1083271136@163.com"
+            "email": "1083271136@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.0.0"
+	 },
+	"license": "Apache-2.0",
+	"autoload": {
+        "psr-4": {
+            "Kumaomao\\tbk\\": "src/"
+        },
+        "files": [
+        ]
+    }
 }
