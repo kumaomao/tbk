@@ -1,0 +1,12 @@
+{
+    "name": "kumaomao/tbk",
+    "description": "sdk",
+    "authors": [
+        {
+            "name": "kumaomao",
+            "email": "z1083271136@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
